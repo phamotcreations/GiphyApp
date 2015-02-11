@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController<UITableViewDataSource>
 
+@property (strong, nonatomic) NSArray *googlePlacesArrayFromAFNetworking;
+@property (strong, nonatomic) NSArray *finishedGooglePlacesArray;
 
 @end
 
